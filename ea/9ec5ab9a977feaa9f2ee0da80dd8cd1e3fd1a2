@@ -1,0 +1,561 @@
+app/src/main/java/app/gamenative/ui/screen/xr/ImmersiveXrActivity.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-1421
+app/src/main/java/app/gamenative/data/LibraryItem.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 49-50
+app/src/main/java/app/gamenative/service/gog/GOGDownloadManager.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 5,16,18,29-30,32,284-286,288,291-294,303-306,312,450-453,469,474-475,552-562,568,858-867,879-882,897,907,916-917,924-930,1074-1075,1077-1081,1289-1291,1622-1638,1659-1664,1670,1672,1675-1679,1690,1700-1704,1722-1726
+app/src/main/java/app/gamenative/ui/widget/PerformanceHudView.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 23-28,114-115,129-130,136-137,310-311,328-333,337-351,439-440,462-463
+gradle.properties
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 10-12
+app/src/main/java/com/winlator/inputcontrols/ExternalControllerBinding.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 21,32,36-44,51-54
+app/src/test/java/com/winlator/xserver/XServerExtensionPolicyTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-25
+app/src/main/java/app/gamenative/utils/MarkerUtils.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 13
+app/src/main/java/com/winlator/renderer/VulkanRenderer.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 69-101,166-168,200,202,260,272-278,296,499-506,810-812,814-823
+app/src/main/java/app/gamenative/service/SteamWishlistService.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 3-4,11-12,16,27-28,44-157,166-167,169-170,172-195,197,201-204
+app/src/main/java/app/gamenative/steam/curated/CuratedListDescriptor.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-25
+app/src/test/java/app/gamenative/mods/NexusApiClientTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 7,30,103-209,341-391
+app/src/main/java/app/gamenative/powercontrol/PowerManager.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-1522
+app/src/main/java/app/gamenative/ui/component/ScreenEffectsPanel.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 977-980,1030-1035,1039-1041,1223-1226,1303-1306
+app/src/main/java/app/gamenative/ui/screen/xserver/XServerScreen.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 17,33,36-37,97,109,112,115-116,132,134,206,231,285-287,331-370,404,412-414,543-544,688-696,699-707,711-718,724-726,736-738,758-766,848-854,1128-1131,1259-1260,1375-1379,1504-1530,1533,1544,1900-1902,1937,1946,1951-1955,2190,2318,2328-2365,2397-2402,2407-2429,2432-2445,2491,2493,2501-2504,2506,2526,2678-2687,2694,2701-2703,2838-2847,2860-2868,2870-2871,2901,3065,3086-3134,3251,3782,3837-3839,3857,3861,3905-3908,4052-4055,4696-4697,5211-5221,5223,5262-5265
+app/src/main/java/app/gamenative/service/gog/GOGManager.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 572-574,659,800,876-883,885-892,959-1051
+app/src/main/java/app/gamenative/powercontrol/PowerControlUiState.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-36
+app/src/main/java/app/gamenative/ui/component/dialog/ControlAppearanceEditor.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 40-41,49-50,61-62
+app/src/main/java/app/gamenative/ui/screen/library/components/LibraryDetailPane.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 33,105,132
+app/src/main/java/com/winlator/xserver/ShmFramePacer.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-50
+app/src/main/java/app/gamenative/powercontrol/autotuning/DeviceGate.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-36
+app/src/main/java/app/gamenative/powercontrol/fan/FanTempController.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-192
+app/src/main/java/app/gamenative/utils/preInstallSteps/GogSupportCommandsStep.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-75
+app/src/main/java/app/gamenative/ui/screen/library/appscreen/CustomGameAppScreen.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 433,440-441,518-520
+app/src/test/java/app/gamenative/ui/component/dialog/NexusModsDialogBrowserFirstTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-189
+app/src/main/java/app/gamenative/service/epic/EpicDownloadManager.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 7,17,20-21,28-29,69,72-82,245-249,267-284,290,423,428-445,451,504,899-923,963-972,1143-1144,1146-1150,1310-1315,1318,1326-1330
+app/src/main/java/app/gamenative/ui/screen/xserver/PhysicalControllerHandler.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 4-5,11,16,30-32,34-39,42-43,48-49,57-58,62-65,67,69-83,89-90,92-93,103-104,106,108,117-118,121-141,146-148,153,155-162,164,195,198-213,217-218,220,222-226,228-231,236-237,239,241-245,247-250,254,256,263-268,292-340,400,426,428-439,444-452,459-467,472-480,487-526,533-661,664-685,695-697,700-702,774,776,798-941
+app/src/test/java/app/gamenative/ui/screen/xserver/PhysicalControllerHandlerTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-67
+app/src/main/cpp/xrimmersive/xr_immersive.cpp
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-1304
+app/src/main/cpp/xrimmersive/CMakeLists.txt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-33
+app/src/main/java/app/gamenative/service/gog/api/GOGDataModels.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 171,292-303
+app/src/main/java/app/gamenative/utils/DebugReportUtils.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-174
+app/src/main/java/app/gamenative/api/CommunityConfigService.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-980
+app/src/main/java/app/gamenative/data/FavoritesManager.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-82
+app/src/main/cpp/xrimmersive/xr_immersive.h
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-296
+app/src/main/java/app/gamenative/ui/component/dialog/ControllerBindingDialog.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 26,44,46-47,53-71,167-172,174-175,177-181,184-199,292-316,399,406,458,461-462,464-471,487,493,512-513
+app/src/main/java/app/gamenative/powercontrol/fan/FanController.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-268
+app/src/main/java/app/gamenative/ui/screen/library/RecommendedGameScreen.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 406,408-412
+app/src/main/java/app/gamenative/powercontrol/metrics/JsonlSessionLog.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-99
+app/src/main/java/app/gamenative/ui/data/XServerState.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 4,14
+app/src/main/java/com/winlator/inputcontrols/Binding.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 13,89-90,205-209,211
+app/src/main/java/com/winlator/inputcontrols/BindingCombo.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-254
+app/src/main/java/com/winlator/widget/FrameRating.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 14,58
+app/src/main/res/values-de/strings.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1,313,552-553,578-582,904-908,948-951,1057-1061,1163-1220,1488,1492-1494,1540-1541,1647-1666,1670-1672,1728-1765,2006,2133-2134,2146-2147,2254-2350
+app/src/test/java/app/gamenative/powercontrol/fan/FanTempControllerTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-84
+app/src/main/java/app/gamenative/ui/screen/xserver/RadialMenuCoordinator.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-668
+app/src/test/java/app/gamenative/ui/screen/xserver/PortraitGameHostHeightTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-60
+app/src/main/java/app/gamenative/ui/component/dialog/state/DebugReportDialogState.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-51
+app/src/main/java/app/gamenative/utils/IntentLaunchManager.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 5,193,263
+app/src/main/java/app/gamenative/service/gog/api/GOGManifestParser.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 422-458,465-466
+app/src/main/java/com/winlator/xenvironment/ImageFsInstaller.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 46,100-103
+app/src/main/res/values-ja/strings.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1,308,577-578,603-607,907-911,953-956,1130-1134,1249-1305,1570,1587-1589,1606-1607,1663-1682,1686-1688,1744-1781,2022,2149-2150,2162-2163,2268-2364
+app/src/test/java/app/gamenative/mods/NexusUrlParserTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 5,41-104,110-119
+app/src/main/java/com/winlator/widget/LookThroughPointerState.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-65
+app/src/test/java/app/gamenative/mods/NexusDownloadLinkInboxTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 6,97-353
+app/src/test/java/app/gamenative/mods/NexusOAuthAccessTokenTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-95
+app/src/test/java/app/gamenative/utils/downloader/ContainerFilesDownloaderTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 5,7-8,12,14,89-188,259,308
+app/src/main/java/app/gamenative/PluviaApp.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 3-4,6-7,15-16,21,61,86,139,212-214,221,253-254,258-260,265,285-334
+app/src/main/java/app/gamenative/utils/BestConfigService.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 11,14-16,54,63-67,177-178,193,241-250,271-288,515,518-524,775,785-806,818,824,833,842,847,851,861,865,869,873,876,878-885,888-889,891-892,894-895,922-927,962-964,991,995
+app/src/main/java/app/gamenative/powercontrol/drivers/PerformanceDriver.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-222
+app/src/modernXr/AndroidManifest.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 13-75
+app/src/main/java/app/gamenative/ui/screen/HomeScreen.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 27,50,63,84
+app/src/main/java/app/gamenative/ui/screen/xr/ImmersiveSessionHooks.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-24
+app/src/main/java/app/gamenative/ui/component/dialog/RadialMenuSettingsDialog.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-358
+app/src/main/java/app/gamenative/utils/LsfgVkManager.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 4-9,12,68-76,84,86,134-235,272-283,314-317,367-368,370,449-451,454-501,509-522,529-530,549-550,572-596,619,632-641,643,646-647
+app/src/main/java/com/winlator/container/ContainerData.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 4,15,22,73-74,126,160-161,199,233-234
+app/src/main/java/app/gamenative/mods/NexusOAuthStorage.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-240
+app/src/main/java/com/winlator/inputcontrols/ControlElement.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 24,39,78,86,89-90,109-111,121,124-127,130-133,136-139,181,184,231-235,239-242,246,248,251,255-304,385-396,398,405-408,415,564-566,570-573,1110,1137,1152-1194,1200,1203-1207,1210-1212,1237-1241,1281,1285-1288,1290-1300,1304-1306,1315,1321-1328,1331,1334-1365,1375-1385,1389-1390,1407-1416,1418-1424,1427-1428,1434-1435,1445,1448,1470-1496
+app/src/test/java/app/gamenative/data/DownloadInfoTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 3,5-8,11,13-14,17-30,60-165
+app/src/test/java/com/winlator/inputcontrols/BindingComboTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-114
+app/src/test/java/com/winlator/inputcontrols/ControlElementDPadRemapTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-414
+app/src/main/java/app/gamenative/ui/screen/library/components/LibraryCarouselPane.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 411-414
+app/src/test/java/app/gamenative/ui/screen/auth/NexusOAuthBrowserLauncherTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-31
+app/src/main/java/app/gamenative/utils/ContainerUtils.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 307,338-339,443,494,525-526,1239,1276,1297,1306,1342
+app/src/legacyXr/AndroidManifest.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-81
+app/src/main/java/app/gamenative/ui/screen/library/components/LibraryTabBar.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 242-259,284-288,503-507,647-670
+app/src/main/java/app/gamenative/powercontrol/metrics/FrameTimeRing.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-125
+app/src/main/java/app/gamenative/powercontrol/AdaptiveFpsCapController.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-278
+app/src/main/res/values/themes.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 10-17
+app/src/main/res/values-pt-rBR/strings.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1,249,432-433,755-759,799-802,921-925,1039-1096,1308-1312,1418,1422-1424,1470-1471,1577-1596,1600-1602,1658-1695,1936,2063-2064,2076-2077,2184-2280
+app/src/main/java/com/winlator/xserver/extensions/MITSHMExtension.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 117-129
+app/src/test/java/app/gamenative/mods/NexusOAuthControllerTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-599
+app/src/test/java/com/winlator/inputcontrols/ControlElementCancellationTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-70
+app/src/main/java/app/gamenative/powercontrol/metrics/MetricsSnapshot.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-20
+app/src/main/java/app/gamenative/ui/component/dialog/ElementEditorDialog.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 31,42-50,84,100-101,108,110,205-208,227-228,238-239,300-301,569-570,940-942,944,968-969,1006-1007,1037,1042,1044-1045,1048-1049,1059,1065,1071,1073,1127
+app/src/main/java/app/gamenative/ui/component/dialog/TouchGestureSettingsDialog.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 18,28,469-481,486,540-558,561-563,565,598-601,717-718,723-724,733-740,748-817,839,841,852-866,870,873-920,922-926,929-971,976-994
+app/src/main/java/app/gamenative/utils/downloader/ContainerFilesDownloader.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 39-59,86-88,96,178-181
+app/src/main/java/com/winlator/xserver/extensions/GenericEventExtension.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-73
+app/src/main/java/app/gamenative/ui/util/WindowSize.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 47,49
+app/src/main/java/app/gamenative/PrefManager.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 4,18,54-55,170,445-458,917-932,1003-1056,1266-1269,1271-1272,1274,1278-1285,1416-1446,1565-1569
+app/src/main/java/com/winlator/renderer/GLRenderer.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 64,152-154,156-162,235,353-364
+app/src/test/java/com/winlator/inputcontrols/ControlElementLookThroughTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-83
+app/src/main/java/app/gamenative/ui/screen/library/FeaturedCtaButton.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 3,50,83,143,145,148-149,155,159,162
+app/src/main/java/app/gamenative/ui/component/quickMenus/PowerControlQuickMenuTab.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-317
+app/src/main/java/app/gamenative/ui/screen/settings/SettingsScreen.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 35,134-140
+app/src/main/java/app/gamenative/ui/screen/xr/DirectGLBridge.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-107
+app/src/test/java/app/gamenative/utils/BestConfigServiceTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 8,293,300,302-303,1050-1070
+app/src/main/res/values-da/strings.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1,249,432-433,755-759,799-802,921-925,1039-1096,1308-1312,1418,1422-1424,1470-1471,1577-1596,1600-1602,1658-1695,1936,2063-2064,2076-2077,2184-2280
+README.md
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 23,108
+app/src/main/java/app/gamenative/utils/PerfSampler.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-851
+app/src/main/res/values/arrays.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 13
+manifest.json
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 7-23,852-863,871-878,880-885
+app/src/main/java/app/gamenative/mods/NexusApiClient.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 13,84,110-118,121,139-158,160-162,289,296-307,350,391,394,401,422,467,474-480,501-528,531-553,558-571,573-582
+app/src/main/java/app/gamenative/ui/component/dialog/CommunityConfigsDialog.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-1059
+app/src/main/java/app/gamenative/ui/component/dialog/SettingsDialogBlocks.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 31,134-151,154,157-160,168-177
+app/src/main/java/app/gamenative/ui/screen/xserver/RadialMenuOverlayView.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-234
+app/src/main/java/app/gamenative/service/epic/EpicOverlayManager.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 56-114,137-140,181
+app/src/main/res/values-ro/strings.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1,318,568-569,594-598,938-942,984-987,1103-1107,1221-1279,1550,1554-1556,1602-1603,1709-1728,1732-1734,1790-1827,2068,2195-2196,2208-2209,2318-2414
+app/src/test/java/app/gamenative/service/NexusModImportServiceRobolectricTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 3-5,8-9,14-15,19,21-24,27,32,82-121,198-232,274
+app/src/main/java/com/winlator/xconnector/XConnectorEpoll.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 186-245,248
+app/src/main/java/app/gamenative/mods/NexusOAuthAccessToken.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-117
+app/src/main/java/app/gamenative/mods/NexusOAuthService.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-195
+app/src/test/java/app/gamenative/steam/curated/CuratedListRepositoryTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-179
+app/src/main/java/app/gamenative/utils/LsfgQuickMenuHelper.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 5,24-52
+app/src/main/res/values-it/strings.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1,320,567-568,593-597,929-933,975-978,1094-1098,1212-1269,1539,1543-1545,1591-1592,1698-1717,1721-1723,1779-1816,2057,2184-2185,2197-2198,2305-2401
+app/src/main/java/app/gamenative/mods/NexusImportState.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 178,189-195,239,252
+app/src/main/java/app/gamenative/mods/NexusOAuthModels.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-91
+app/src/main/res/values-ko/strings.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1,327,573-574,599-603,938-942,982-985,1099-1103,1216-1272,1526-1528,1562-1563,1671,1704-1723,1727-1729,1785-1822,2063,2190-2191,2203-2204,2309-2405
+app/src/main/java/app/gamenative/powercontrol/autotuning/AdaptiveFpsCap.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-289
+app/src/test/java/app/gamenative/mods/NexusOAuthTestTokens.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-32
+app/src/main/java/app/gamenative/ui/screen/library/components/LibraryGridCard.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 4-5,30,54-57,134-139,148-180,192-197,265-266,278-318,328,339,345,361
+app/src/main/java/app/gamenative/powercontrol/drivers/SamsungPerformanceDriver.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-279
+app/src/main/java/app/gamenative/mods/NexusAuthManager.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-656
+app/src/main/java/app/gamenative/data/RecommendedGame.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 20
+app/src/main/java/app/gamenative/ui/component/dialog/DebugReportDialog.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-267
+app/src/main/java/app/gamenative/ui/component/dialog/GraphicsTab.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 175-186,380,555,576
+app/src/main/java/com/winlator/container/Container.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 39-41,80,88,96,129-130,279-282,361-368,401-416,723,732,757-758,851-853,872-874,976-981
+.github/workflows/adhoc-signed-build.yml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 18-22,99-107,111,113-114,116-117,119-120
+app/src/main/java/app/gamenative/ui/component/dialog/PhysicalControllerConfigSection.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 26,71,106,111,116,192-203,206,228,231,247,253,274,529-530,532-533,578,623,787,854,894-895
+app/src/main/java/app/gamenative/gamefixes/types/BionicSteamClientFix.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-43
+app/src/main/java/app/gamenative/powercontrol/README.md
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-917
+app/src/main/java/app/gamenative/ui/component/dialog/GameFeedbackDialog.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 52,55,58-60,62-89,92-99,101-126,129-139,141-147
+app/src/main/java/app/gamenative/ui/enums/AppOptionMenuType.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 17,35,40-41
+app/src/main/java/com/winlator/core/Win32AppWorkarounds.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 3,106-109
+app/src/main/java/app/gamenative/powercontrol/autotuning/TunerDecisionEngine.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-519
+app/src/main/java/app/gamenative/Constants.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 38
+app/src/main/java/app/gamenative/service/epic/EpicService.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 253-255
+app/src/main/java/app/gamenative/ui/model/DownloadsViewModel.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 287
+app/src/main/java/app/gamenative/powercontrol/autotuning/PerformanceAutoTuner.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-451
+app/src/main/java/app/gamenative/steam/curated/CuratedListRepository.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-147
+app/src/main/java/app/gamenative/ui/screen/settings/SettingsGroupPerformance.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-31
+app/src/main/java/com/winlator/xserver/XClientConnectionHandler.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 16-18
+app/src/main/java/app/gamenative/ui/component/dialog/DebugPreRunDialog.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-104
+app/src/test/java/app/gamenative/mods/NexusImportStateTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 287-303
+app/src/main/java/app/gamenative/events/AndroidEvent.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 23
+app/src/main/java/app/gamenative/enums/Marker.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 11
+app/src/main/java/app/gamenative/utils/PreInstallSteps.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 32
+app/src/main/java/app/gamenative/ui/screen/library/components/LibraryOptionsPanel.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 6,106,110-114,334-346,348-369,390-488,532,536-542
+app/src/main/java/com/winlator/inputcontrols/ControlsProfile.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 27,31,160-173,200-215,220-254,286-291,338-343,373-375
+app/src/main/java/app/gamenative/ui/component/quickMenus/PowerControlQuickMenuContent.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-864
+app/src/main/java/app/gamenative/powercontrol/profiles/PerformancePreset.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-22
+app/src/main/java/app/gamenative/ui/screen/library/components/LibraryFavoritesEmptyState.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-72
+app/src/test/java/app/gamenative/ui/component/dialog/ContainerConfigDialogContainerUpdateTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 674-684
+app/src/main/java/com/winlator/xconnector/Client.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 18-21,36-37
+app/src/main/java/app/gamenative/powercontrol/profiles/CpuGovernor.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-23
+app/src/main/java/app/gamenative/ui/screen/library/components/FavoriteCardIndicator.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-104
+app/src/main/java/app/gamenative/ui/screen/auth/NexusOAuthCallbackActivity.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-102
+app/src/main/java/com/winlator/inputcontrols/JoyConSupport.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-82
+app/src/main/java/com/winlator/inputcontrols/ExternalController.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 183-187,205-210,258,273,277,283,376-380,382-383,404-407
+app/src/main/java/app/gamenative/ui/data/LibraryState.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 42-45,78
+app/src/main/java/com/winlator/renderer/GLHardwareBufferImporter.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-26
+app/src/main/res/values-es/strings.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1,331,611-612,637-641,945-949,991-994,1110-1114,1229-1286,1546,1550-1552,1598-1599,1705-1724,1728-1730,1786-1823,2064,2191-2192,2204-2205,2312-2408
+app/src/main/java/com/winlator/winhandler/WinHandler.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 21,96-105,241-251,518,764,973,980,1032,1039-1040
+app/src/main/java/app/gamenative/ui/screen/library/components/GameOptionsPanel.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 52,56,59-60,337,351,360-361,377,380-381,397
+app/src/main/res/values-pl/strings.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1,328,575-576,601-605,946-950,992-995,1111-1115,1229-1288,1548,1552-1554,1600-1601,1707-1726,1730-1732,1788-1825,2066,2193-2194,2206-2207,2318-2414
+app/src/test/java/app/gamenative/steam/curated/CuratedListRemoteSourceTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-98
+app/src/main/java/app/gamenative/powercontrol/autotuning/ClusterTuner.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-504
+app/src/main/java/app/gamenative/ui/screen/library/appscreen/BaseAppScreen.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 25,30-31,33,38,40,45,50,56,63-66,88,91-95,98-100,102-103,109,113-152,165,240-251,506-517,591-601,687,777-793,909,917-918,931,946,974-1089,1130,1144,1152-1154,1195,1241-1267,1299-1301,1515-1526,1570-1577,1604,1633-1674
+app/src/test/java/com/winlator/inputcontrols/JoyConSupportTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-87
+app/src/main/java/app/gamenative/powercontrol/metrics/PerformanceMetricsCollector.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-233
+app/build.gradle.kts
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 67-68,210-213,253-255,260,323-333,347,352-353,369-372,435-436
+app/src/main/AndroidManifest.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 81-90,103-124
+app/src/main/java/app/gamenative/service/SteamService.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 60-61,100,144,197-203,377-431,441,1917-1924,1933-1936,1969,2294-2322,2325-2327,2384-2385,3623,3678,3682
+app/src/main/java/app/gamenative/ui/screen/DebugPaywallScreen.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-346
+app/src/main/res/values-zh-rCN/strings.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1,312,557-558,583-587,922-926,968-971,1082-1086,1197-1253,1519-1521,1585,1649-1650,1724-1743,1747-1749,1805-1842,2083,2210-2211,2223-2224,2329-2425
+app/src/main/java/app/gamenative/ui/screen/library/LibraryScreen.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 5,14,17,39,56,82,103,109,123,134,143,148-149,161,171-172,196-197,206,217-218,339-349,375-376,482-497,526-537,540-542,939,941-947,985-999,1036-1040,1076-1093,1102-1110,1127-1135,1139,1173,1229-1233,1274-1275,1278-1286,1315,1319-1323,1376-1436,1547,1557-1558
+app/src/main/java/app/gamenative/ui/component/dialog/NexusOAuthAccountSection.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-166
+app/src/main/java/app/gamenative/ui/screen/downloads/DownloadsScreen.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 120,184-186
+app/src/main/java/app/gamenative/service/NexusModImportService.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 31-32,81-83,86,88-97,100,109,127-131,139-166,246,310-311,377,389-399,473-475,518-532,623,632,634,636,779-780,785,808-812,818,838,843,850,858-866
+app/src/main/java/com/winlator/renderer/VulkanXrFrameBridge.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-12
+app/src/main/java/app/gamenative/mods/NexusDownloadLinkInbox.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 3-4,25-55,69,80,82-83,93-118,140-154,156-196,217-233,237-239,252-276
+app/src/main/java/app/gamenative/MainActivity.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 39,42,54,65-66,68-70,79-80,92-96,315-332,334,338-341,378-441,506,555
+app/src/test/java/app/gamenative/data/TouchGestureConfigTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 49-89
+app/src/main/java/app/gamenative/ui/screen/xr/XrNative.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-94
+app/src/test/java/app/gamenative/powercontrol/autotuning/DeviceGateTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-118
+app/src/test/java/app/gamenative/ui/component/dialog/ControlAppearanceLookThroughTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-26
+app/src/main/java/app/gamenative/data/FavoritesUtils.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-13
+app/src/main/java/app/gamenative/ui/screen/library/components/FavoriteActions.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-23
+app/src/main/java/app/gamenative/ui/screen/xr/DirectVulkanBridge.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-23
+app/src/main/java/app/gamenative/ui/screen/xr/ImmersiveControls.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-32
+app/src/main/java/app/gamenative/utils/ContainerStorageManager.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 782-790
+app/src/main/java/app/gamenative/gamefixes/GameInputCompatibility.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-15
+app/src/main/java/app/gamenative/gamefixes/GameFixesRegistry.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 47-48
+app/src/main/java/com/winlator/container/ContainerManager.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 321-347
+app/src/main/cpp/winlator/VulkanRendererContext.cpp
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 42,750-751,753-755,759-763,765,785-786,822-957,1021,1023-1026,1031-1041,1043-1048,1050,1120-1123,1133-1143
+app/src/main/java/app/gamenative/ui/screen/library/components/LibraryListPane.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 125,258-261,300-303
+app/src/main/java/app/gamenative/ui/screen/xr/XrGamepadBridge.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-94
+app/src/main/java/app/gamenative/ui/enums/DialogType.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 34
+app/src/test/java/com/winlator/inputcontrols/RadialMenuTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-65
+app/src/main/java/com/winlator/xserver/XClient.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 16
+app/src/main/java/app/gamenative/api/DebugReportApi.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-109
+app/src/test/java/app/gamenative/gamefixes/GameInputCompatibilityTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-23
+app/src/test/java/app/gamenative/utils/CommunityConfigApplicationTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-208
+app/src/main/java/app/gamenative/powercontrol/metrics/SystemMetricsReader.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-418
+app/src/main/java/app/gamenative/service/WishlistWebViewAdder.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-191
+app/src/main/java/com/winlator/inputcontrols/ControllerManager.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 191-195,197-198,227-238,525-533
+app/src/main/java/app/gamenative/ui/screen/auth/NexusOAuthBrowserLauncher.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-29
+app/src/main/java/app/gamenative/ui/screen/library/components/LibraryListCard.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 21,40-43,85-117,128-133,178,180-193,202-206,215
+app/src/test/java/app/gamenative/api/CommunityConfigServiceTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-942
+app/src/main/java/app/gamenative/steam/SteamCollectionFilter.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 12-16
+app/src/main/java/app/gamenative/powercontrol/drivers/PServerDriver.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-1909
+app/src/main/java/app/gamenative/ui/screen/library/components/RecommendationDisclosure.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 17,19-23,25,29,35-40,46
+app/src/main/java/app/gamenative/utils/PerfVerdicts.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-314
+app/src/main/res/values/strings.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1,88,113-118,133-139,234-237,328-344,354,454-455,717-718,744-748,1063-1067,1109-1112,1285-1289,1414-1471,1732-1739,1742,1757-1794,1806-1825,1829-1831,2116,2168-2170,2210-2211,2234-2235,2267-2284,2375-2420
+app/src/main/java/app/gamenative/ui/util/Images.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 6,49
+app/src/test/java/app/gamenative/data/FavoritesUtilsTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-94
+app/src/main/java/app/gamenative/mods/NexusIntegrationStatus.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 3,5
+app/src/main/cpp/xrimmersive/jni_bridge.cpp
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-265
+app/src/main/java/app/gamenative/data/gog/GogRecommendationsRepository.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 165
+app/src/main/java/com/winlator/renderer/XrFrameBridge.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-17
+app/src/main/java/app/gamenative/ui/util/ContainerConfigTransfer.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 96,101-102,104,113-114
+app/src/main/java/app/gamenative/utils/StorageUtils.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 54-78
+app/proguard-rules.pro
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 45-47
+app/src/main/java/app/gamenative/data/TouchGestureConfig.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 145,148-154,327-413
+app/src/main/java/com/winlator/xserver/XServer.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 13,48,50,53-56,69-72,86-89,293-296,298-306
+app/src/main/java/app/gamenative/gamefixes/STEAM_3602270.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-11
+app/src/main/java/app/gamenative/utils/DownloadSpeedConfig.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 6-9,14-37,39,42
+app/src/main/java/app/gamenative/utils/launchdependencies/EpicOverlayDependency.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 5,28
+app/src/main/java/app/gamenative/powercontrol/drivers/NoOpPerformanceDriver.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-21
+app/src/main/res/values-uk/strings.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1,315,562-563,588-592,932-936,978-981,1097-1101,1215-1274,1544,1548-1550,1596-1597,1703-1722,1726-1728,1784-1821,2062,2189-2190,2202-2203,2314-2410
+app/src/main/java/app/gamenative/utils/SteamUtils.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 889-890,902,982-1002
+app/src/test/java/app/gamenative/powercontrol/autotuning/TunerHarvestGuardTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-200
+app/src/main/java/app/gamenative/mods/NexusUrlParser.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 6,47-58,96-100,103,108-112,115,117,120-121,125,128-235,253-256
+app/src/main/java/app/gamenative/data/DownloadInfo.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 4-5,7-9,16-18,26-27,30-34,49-50,67-76,162-163,166,295,300,303-337,345-346,374-376
+app/src/main/java/com/winlator/xenvironment/XEnvironment.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 22-23,99
+app/src/main/java/app/gamenative/utils/CustomGameScanner.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 74-117,561,563-568,570-572,579-595,733,762-763,766-769,774-780
+app/src/main/res/xml/file_provider_paths.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 6
+app/src/main/java/app/gamenative/powercontrol/PowerBaseline.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-126
+app/src/main/java/app/gamenative/ui/widget/PerformanceHudModels.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 15-16,46-47
+app/src/main/java/app/gamenative/mods/NexusPendingDownloadStore.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 58-64
+app/src/main/java/app/gamenative/ui/data/MainState.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 24
+app/src/main/java/app/gamenative/ui/screen/auth/NexusOAuthCallbackContract.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-38
+app/src/main/java/app/gamenative/utils/WineProcessSnapshotHelper.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 20-37
+app/src/main/java/com/winlator/widget/InputControlsView.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 22,25,33,48-52,59,67-69,99-103,127-136,155,169,174-186,346,414,445,449,451,463,473-475,506-509,514-534,1068,1075,1098-1100,1210,1213,1264-1267,1276-1277,1283,1288-1293,1302-1315,1340-1353,1360-1364,1367-1368,1371-1381,1385-1387,1410,1413,1426-1503,1507-1510
+app/src/main/java/app/gamenative/powercontrol/PowerProfile.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-191
+app/src/main/java/app/gamenative/gamefixes/STEAM_4320000.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-11
+app/src/main/java/app/gamenative/ui/component/dialog/GeneralTab.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 399-411,413-420
+app/src/main/java/com/winlator/widget/TouchpadView.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 29-31,55-56,60,70-71,99,126-127,176-182,222-226,233,460-465,486,496,520,533,541-609,825,836,890,938-940,950-952,969,1016,1074,1206,1292,1320,1408,1416,1448,1504,1560,1612-1623,1629-1635,1662-1669,1673-1675,1721-1760,1824-1825,1855-1857,1865,1870,1889,1893-1897,1911-1926,1969-2003,2151,2238-2259,2395-2396
+THIRD_PARTY_NOTICES
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 352-359
+app/src/main/java/app/gamenative/utils/CustomGameImporter.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-123
+app/src/main/java/com/winlator/inputcontrols/RadialMenu.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-168
+app/src/main/res/values-fr/strings.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1,79,314-330,338,585-586,611-615,955-959,1001-1004,1121-1125,1239-1296,1566,1570-1572,1618-1619,1725-1744,1748-1750,1806-1843,2084,2211-2212,2224-2225,2332-2410
+app/src/test/java/app/gamenative/mods/NexusOAuthServiceTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-209
+app/src/main/java/app/gamenative/ui/PluviaMain.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 6,8-9,69,79,81-82,86,96,107,131,275-285,317,323-340,571-582,676-724,897,1201-1217,1371,1376,1383-1545,1651-1655,1657-1659,1679,1698,1718,1732-1736,1796,1918-1925
+app/src/main/java/com/winlator/xenvironment/components/GlibcProgramLauncherComponent.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 185
+app/src/main/cpp/winlator/vulkan_jni.cpp
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 102-116
+app/src/main/assets/container_files_download.json
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 2-3,12-13
+app/src/main/java/app/gamenative/steam/curated/CuratedListRemoteSource.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-85
+app/src/main/java/app/gamenative/ui/component/dialog/MessageDialog.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 4,6-7,15,49-59,62-65
+app/src/main/res/values-zh-rTW/strings.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1,312,557-558,583-587,924-928,970-973,1084-1088,1199-1255,1521-1523,1580,1640-1641,1715-1734,1738-1740,1796-1833,2074,2201-2202,2214-2215,2320-2416
+app/src/main/java/app/gamenative/ui/component/QuickMenu.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 4,59-60,68,70,80,85-87,100-101,125,134,136,253-332,345,352,356,359-391,458-465,473-476,480-486,495-496,509,534-537,552-639,649-661,678-683,686,752-763,827-840,918-924,974-980,991-1001,1047,1053-1055,1057,1064,1066,1069,1071-1072,1076,1214,1217-1218,1220-1221,1227,1269-1273,1307-1311,1536-1559,1573-1574,1593-1597,1647-1668,1677-1678,1691,1693-1701,1704,1706-1715,1717-1741,1743-1748,1750-1769,1809-1811,1832-1835,1864-1867,1889,1899-1902,1925-1927,1974-1977,2001-2004,2045-2048,2062,2077-2080,2123-2125,2133-2136,2140-2142,2324,2327,2335-2337,2339-2341,2387-2391,2397-2401,2418-2425,2574-2576,2628-2631
+app/src/test/java/com/winlator/widget/LookThroughPointerStateTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-56
+app/src/main/java/app/gamenative/ui/enums/LibraryTab.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 6,40-49,98-99,103
+app/src/main/java/com/winlator/xenvironment/components/BionicProgramLauncherComponent.java
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 85-98,267,318,324,330-348,708,712
+app/src/main/java/app/gamenative/ui/model/MainViewModel.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 8,11,34,36,40,72-98,110-112,258-263,298,325,507-510,512-514,524-532,590,596,598-609,620,638-662,674,684,693-698,705-733,807-813,818-822,827-828,830,881-883
+app/src/main/java/app/gamenative/ui/component/dialog/NexusModsDialog.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 52,85,115-118,137,190-256,711,724,749-767,790,792-812,825,833,839-846,850-929,1775,1778-1779,1789,1880-1881,2096-2142,2144-2153,2155-2162,2482,2585-2592,2609,2646,3085-3094,3096-3100,3102-3119
+app/src/main/java/app/gamenative/ui/screen/library/LibraryAppScreen.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 64-65,73,518,538,559-564,584,605-626,635-644,996-1014
+app/src/main/res/values-ru/strings.xml
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1,33-37,120-179,388-389,818-822,987,1110-1114,1128-1131,1476,1480-1482,1528-1529,1635-1654,1658-1660,1716-1753,1994,2121-2122,2134-2135,2246-2342
+app/src/test/java/app/gamenative/ui/screen/auth/NexusOAuthCallbackContractTest.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-68
+app/src/main/java/app/gamenative/ui/screen/xserver/InputControlsProfileCopy.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 5,16,20-23,43
+app/src/main/cpp/winlator/VulkanRendererContext.h
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 131-133,315-327
+app/src/main/java/app/gamenative/powercontrol/autotuning/PidController.kt
+  s_6f2bb1cb02bdd9::t_085f265d4708ba 1-110
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "ea9ec5ab9a977feaa9f2ee0da80dd8cd1e3fd1a2",
+  "prompts": {},
+  "sessions": {
+    "s_6f2bb1cb02bdd9": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a066b5-0e7f-7d70-a61e-a41859845197",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Daniel Byon <daniel@danielbyon.com>"
+    }
+  }
+}
