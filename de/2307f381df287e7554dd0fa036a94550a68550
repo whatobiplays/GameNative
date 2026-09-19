@@ -1,0 +1,24 @@
+app/src/main/java/app/gamenative/CrashHandler.kt
+  s_77f66d4c0a0225::t_a6688b63970ef3 36-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "de2307f381df287e7554dd0fa036a94550a68550",
+  "prompts": {},
+  "humans": {
+    "h_a1fa5c19d60fed": {
+      "author": "Daniel Byon <daniel@danielbyon.com>"
+    }
+  },
+  "sessions": {
+    "s_77f66d4c0a0225": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0b3b3-f75e-7ef0-be18-7240382848e6",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Daniel Byon <daniel@danielbyon.com>"
+    }
+  }
+}
