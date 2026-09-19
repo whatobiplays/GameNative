@@ -1,0 +1,65 @@
+app/src/test/java/app/gamenative/service/gog/GOGManagerHiddenSyncTest.kt
+  s_77f66d4c0a0225::t_cc0382ee0dde0f 280-310
+  s_77f66d4c0a0225::t_a428627f74a5e8 332
+  s_77f66d4c0a0225::t_76afd11eaa56e6 104-162,235-252,256-272,276
+  s_77f66d4c0a0225::t_a2ad96c4691b3b 21
+  s_77f66d4c0a0225::t_dcb867a77cb54f 331
+  s_77f66d4c0a0225::t_6799378fe05d73 1-20,22-103,163-179,198-234,253-255,273-275,277-279,311-330,333-355
+  s_77f66d4c0a0225::t_9e1138fa2798aa 180-197
+app/src/test/java/app/gamenative/db/dao/GOGGameDaoTest.kt
+  s_77f66d4c0a0225::t_ebe9ed2a3ffd2f 117
+  s_77f66d4c0a0225::t_19c3f19c0a790e 39-43,46-47,51-63,65-70,72-79,81,83-86,90,92,99,102-103,109-111,131,137,140,142,149,153-165,167-169
+app/src/test/java/app/gamenative/service/gog/GogGalaxyReleasesParserTest.kt
+  s_77f66d4c0a0225::t_479d696f8e3e0c 59-71
+  s_77f66d4c0a0225::t_7ceed7652e4e3d 15,18-20,37-39,49,75,86-93,106-110
+  s_77f66d4c0a0225::t_f6c9e1c162ca37 1-14,16-17,21-36,40-48,50-58,72-74,76-85,94-105,111-117
+app/src/test/java/app/gamenative/utils/TestPrefManager.kt
+  s_77f66d4c0a0225::t_a428627f74a5e8 53
+app/src/test/java/app/gamenative/service/gog/GogHiddenSyncModelsTest.kt
+  s_77f66d4c0a0225::t_1c2a4440bfdfc0 1-39
+app/src/test/java/app/gamenative/service/gog/GOGApiClientHiddenSyncTest.kt
+  s_77f66d4c0a0225::t_8dbf2707d371f1 1-2,4-19,21-106,168-187,189,191-193,195-214,216-217,219-228,257,263,267-271,290-301
+  s_77f66d4c0a0225::t_9ec2863978a8cd 3,20
+  s_77f66d4c0a0225::t_cc0382ee0dde0f 143-167
+  s_77f66d4c0a0225::t_7ceed7652e4e3d 107-142,188,190,194,215,218,229-256,258-262,264-266,272-289
+app/src/androidTest/java/app/gamenative/db/migration/GOGHiddenGamesMigrationTest.kt
+  s_77f66d4c0a0225::t_a3fcfb5b136e0f 1-40,56-70,72,129-130,182-187
+  s_77f66d4c0a0225::t_8d34c8999eb1b6 41-55,71,73-128,131-181
+app/src/test/java/app/gamenative/ui/data/LibraryCountsTest.kt
+  s_77f66d4c0a0225::t_8a910063d33ffe 19-21
+app/src/test/java/app/gamenative/PrefManagerHiddenSyncTimestampsTest.kt
+  s_77f66d4c0a0225::t_8bf8715f335506 1-42
+app/src/test/java/app/gamenative/data/GOGGameTest.kt
+  s_77f66d4c0a0225::t_19c3f19c0a790e 1-27
+app/src/test/java/app/gamenative/service/gog/GOGServiceHiddenSyncTest.kt
+  s_77f66d4c0a0225::t_32cd1c083c8eb0 183
+  s_77f66d4c0a0225::t_cc0382ee0dde0f 20-21,263-322
+  s_77f66d4c0a0225::t_7ce37d68dd2dc7 1-19,22-165,167-182,184-191,219-262,323-326,328-371,373-395
+  s_77f66d4c0a0225::t_0fcf6b50c7ed5b 192-218
+  s_77f66d4c0a0225::t_2de5288885e046 166
+  s_77f66d4c0a0225::t_443655ff445424 327
+  s_77f66d4c0a0225::t_f9c855f255164a 372
+app/src/test/java/app/gamenative/service/gog/GogFilteredProductsParserTest.kt
+  s_77f66d4c0a0225::t_c3276ebcebc1b0 10-20,23-24,28-30,33,37,39-41,46-55,60-69,74-77,79-80,84-94
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "742f27b646eb90aa84f4d3a2180b4aaf716fb54d",
+  "prompts": {},
+  "humans": {
+    "h_a1fa5c19d60fed": {
+      "author": "Daniel Byon <daniel@danielbyon.com>"
+    }
+  },
+  "sessions": {
+    "s_77f66d4c0a0225": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0b3b3-f75e-7ef0-be18-7240382848e6",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": null
+    }
+  }
+}
