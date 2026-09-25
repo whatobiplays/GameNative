@@ -1,0 +1,462 @@
+app/src/main/java/app/gamenative/utils/FileUtils.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 136-150,163,188
+app/src/main/java/app/gamenative/utils/LsfgVkManager.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 15-17,72-75,150-161,229-254,257,282-345,469,742
+app/src/main/java/app/gamenative/service/download/NativeSteamDownload.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-137
+app/src/main/java/app/gamenative/service/epic/EpicManager.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 227-228,236,263-300,1132-1171
+app/src/main/cpp/gn-download/rust/src/lib.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-19
+app/src/main/cpp/lsfg/lsfg_dll.h
+  s_77f66d4c0a0225::t_e0ea675b207033 1-61
+app/src/main/cpp/lsfg/lsfg_common.hpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-326
+app/src/main/cpp/winlator/VulkanRendererContext.cpp
+  s_77f66d4c0a0225::t_e0ea675b207033 4-5,15,17,44-49,59-76,78,94,168,242-247,256-257,264-269,272-322,324,328-330,343-350,377-380,403-414,548-552,557-563,792,869-870,1119-1121,1134-1136,1138-1139,1144-1211,1234-1263,1321-1473,1475-1479,1481-1482,1484-1486,1489,1491-1525,1527,1529
+app/src/main/java/app/gamenative/utils/SteamUtils.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 13-14,738-756,798,805,854-861,874-886,964
+app/src/main/cpp/gn-download/rust/src/store_dl/steam/depot_writer.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-4734
+app/src/main/cpp/gn-download/rust/src/store_dl/steam/depot_config.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-287
+app/src/main/java/app/gamenative/mods/GenericOptionSetDetector.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-135
+app/src/androidTest/java/app/gamenative/ui/component/dialog/PlacementReviewAndroidTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-101
+app/src/main/cpp/gn-download/rust/src/store_dl/steam/jni.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-584
+app/src/main/java/app/gamenative/mods/ModInstallPlan.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-195
+app/src/main/java/app/gamenative/service/epic/EpicDownloadManager.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 6,11,15-17,41,46,56-57,65,81-86,99-115,227-229,251,279,307-308,315-320,329-342,352-354,357,403-410,497-498,505-510,519-527,539,608,624,631,701-710,989-996,1006-1008,1026-1190,1242-1245,1259-1270,1289,1294,1346-1350,1355,1520,1528,1551,1575-1576
+app/src/main/java/app/gamenative/service/rockstar/RockstarRuntime.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 14,25-26,29-32,35-44,46,68,71
+app/src/main/java/app/gamenative/service/SteamService.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 73-74,458,2005-2007,2015,2072-2077,2497-2500,2505,2551-2555,2558-2571,2578-2580,2584-2598,2600-2601,2855
+app/src/main/cpp/lsfg/lsfg_probe.h
+  s_77f66d4c0a0225::t_e0ea675b207033 1-15
+app/src/main/res/values-es/strings.xml
+  s_77f66d4c0a0225::t_e0ea675b207033 623-628,1638-1641,2458-2534,2604-2612
+app/src/main/res/values-ko/strings.xml
+  s_77f66d4c0a0225::t_e0ea675b207033 585-590,1601-1604,2454-2530,2600-2608
+app/schemas/app.gamenative.db.PluviaDatabase/27.json
+  s_77f66d4c0a0225::t_e0ea675b207033 5,765,897-898,1676,1708-1713,1884
+app/src/main/cpp/lsfg/lsfg_jni.c
+  s_77f66d4c0a0225::t_e0ea675b207033 1-64
+app/src/main/java/app/gamenative/mods/FomodInstallPlanner.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-238
+app/src/main/java/app/gamenative/mods/WindowsTargetNamespace.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-131
+app/src/main/res/values-zh-rTW/strings.xml
+  s_77f66d4c0a0225::t_e0ea675b207033 570-575,1680-1683,2465-2541,2611-2619
+app/src/test/java/app/gamenative/mods/ModConfigurationDraftTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-68
+app/src/test/java/app/gamenative/mods/ModDeploymentCoordinatorTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-43
+app/src/test/java/app/gamenative/mods/ModOwnershipManifestTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-307
+app/src/test/java/app/gamenative/ui/component/dialog/NexusModsDialogHelpersTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 5-9,17,79-162
+  s_77f66d4c0a0225::t_e47996da39c3ec 163
+app/src/main/java/app/gamenative/mods/ModPlacementRulePacks.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-47
+app/src/main/java/app/gamenative/mods/ModArchiveExtractor.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 374-375
+app/src/main/cpp/lsfg/lsfg_shaders.hpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-38
+app/src/main/cpp/gn-download/rust/src/store_dl/gog/plan.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-414
+app/src/main/cpp/lsfg/lsfg_chain.hpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-84
+app/src/main/cpp/lsfg/lsfg_shaders.cpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-78
+app/src/main/java/app/gamenative/gamefixes/GameFixesRegistry.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 42
+app/src/main/java/app/gamenative/service/rockstar/RockstarHelperArchive.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 14,19,26-36
+app/src/main/res/values-it/strings.xml
+  s_77f66d4c0a0225::t_e0ea675b207033 579-584,1631-1634,2451-2527,2597-2605
+app/src/main/res/values-ru/strings.xml
+  s_77f66d4c0a0225::t_e0ea675b207033 390-395,1566-1569,2392-2468,2538-2546
+app/src/main/cpp/gn-download/rust/src/store_dl/epic.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-38
+tools/build-gn-download.sh
+  s_77f66d4c0a0225::t_e0ea675b207033 1-39
+app/src/main/cpp/gn-download/rust/src/store_dl/steam/content_manifest.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-356
+app/schemas/app.gamenative.db.PluviaDatabase/28.json
+  s_77f66d4c0a0225::t_cb274faa3eab34 1-1894
+app/src/main/cpp/gn-download/rust/src/store_dl/steam/crypto.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-150
+app/src/main/cpp/lsfg/lsfg_mipmaps.cpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-82
+app/src/main/java/app/gamenative/data/ModInstall.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 226-228
+app/src/main/cpp/lsfg/vk_dispatch.h
+  s_77f66d4c0a0225::t_e0ea675b207033 1-89
+app/src/test/java/app/gamenative/gamefixes/RedistDllExtractFixTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-211
+app/src/main/java/app/gamenative/utils/DownloadSpeedConfig.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 9-13,15-19,22-40,42-48
+app/src/main/cpp/gn-download/rust/.gitignore
+  s_77f66d4c0a0225::t_e0ea675b207033 1
+app/src/test/java/app/gamenative/gamefixes/BinaryPatchFixTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-246
+app/src/main/cpp/gn-download/rust/src/store_dl/steam/proto_wire.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-472
+app/src/main/java/app/gamenative/mods/ModTargetResolver.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 12-16,21-27,53-58,60-61,65-81,92-125,132
+  s_77f66d4c0a0225::t_d750a22baa1464 126-131,133
+app/src/main/cpp/lsfg/lsfg_dll.c
+  s_77f66d4c0a0225::t_e0ea675b207033 1-741
+app/src/main/cpp/gn-download/rust/src/progress_gate.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-77
+app/src/main/cpp/gn-download/rust/src/tree_delete.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-284
+app/src/main/java/app/gamenative/mods/ModMaterializer.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 15,29,36-41,44-79,89,92,102,104-111,113-127,186-197,199,203,208-230,233-234,246,250-259,261-270,273-279,281-282,293,321-325,327-346,348,350,354-419,424-434,436-498,500,502,505-602,605,615,626-628,632-643,645-656,659-670,675-744,839,855-856,862,871,874-875,878,896-908,963-964,982-983,999,1004,1019,1027-1028,1177-1178
+app/src/main/res/values/strings.xml
+  s_77f66d4c0a0225::t_e0ea675b207033 742-747,2012,2066-2083,2085-2117,2198,2205-2230,2279,2281-2284,2351-2354,2576-2578
+app/src/main/cpp/lsfg/lsfg_dxbc.cpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-94
+app/src/main/cpp/lsfg/lsfg_beta.cpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-151
+app/src/main/cpp/lsfg/lsfg_chain.cpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-144
+app/src/main/cpp/lsfg/vk_dispatch.c
+  s_77f66d4c0a0225::t_e0ea675b207033 1-97
+app/src/main/java/app/gamenative/mods/ModConflictAnalyzer.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 4,33,38-50,52-62,70,72,80-81
+app/src/main/java/com/winlator/renderer/VulkanRenderer.java
+  s_77f66d4c0a0225::t_e0ea675b207033 72-73,148,185-199,234,240,247,529,543,552,561,592,604,613,622,852-853,861-943
+  s_77f66d4c0a0225::t_1f1e9d85453942 944
+app/proguard-rules.pro
+  s_77f66d4c0a0225::t_e0ea675b207033 40-47
+app/src/main/java/app/gamenative/service/download/NativeTreeDelete.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-61
+app/src/main/cpp/winlator/VulkanRendererContext.h
+  s_77f66d4c0a0225::t_e0ea675b207033 13,81,116-127,148,151-161,369-395,435-446
+app/src/test/java/app/gamenative/service/gog/GOGDownloadManagerTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 129-130
+app/src/main/cpp/lsfg/vkr_lsfg.cpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-291
+app/src/main/java/app/gamenative/service/rockstar/RockstarHelperDeployment.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 9-17,23,34
+app/src/main/java/app/gamenative/ui/component/dialog/NexusModsFomodSections.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 24,34,39-40,55,57-58,65-69,81-82,113,116-118,123-125,170-182,186-191,196,220-227,268,330-334,336-376,378,381-387,438-453,471,473,475-483,541,548-552,559-560,591,594
+app/src/main/java/app/gamenative/service/amazon/AmazonSdkManager.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 197-205,207-210
+app/src/main/cpp/gn-download/.gitignore
+  s_77f66d4c0a0225::t_e0ea675b207033 1
+app/src/main/cpp/lsfg/lsfg_pacer.cpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-176
+app/src/main/cpp/gn-download/rust/src/md5_small.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-197
+app/src/main/cpp/winlator/VulkanRendererLsfg.cpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-323
+app/src/main/java/app/gamenative/db/dao/EpicGameDao.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 107
+app/build.gradle.kts
+  s_77f66d4c0a0225::t_e0ea675b207033 491
+app/src/main/java/app/gamenative/mods/FomodInstaller.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 11,19,65-67,71-74,76-85,87,89-98,131-136,140-141,144-153,197,219,226,265-267,276-304,314-316,336,343,348-353,378,457-458,460-481,490,509,521,575,582,586-588,598,619-620
+app/src/main/java/app/gamenative/mods/ModDeploymentJournal.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-127
+app/src/main/java/app/gamenative/service/download/GameDownloadNative.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-25
+app/src/main/java/app/gamenative/ui/component/dialog/NexusModsPlacementSections.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 5,8-9,17,36-37,42-43,61,71,81-83,85,87-90,94-97,102,105-106,137-138,142-155,159-160,166,168-169,174-184,186-218,271,276-410,429-438,444-448,468-486,503,520-523,548,550-556,558,565-958,994,1001,1007,1037,1154-1158,1166-1176,1204-1234,1236,1238,1241-1247,1251-1262,1265,1268-1280,1316-1325,1336-1339,1596-1600,1607,1609,1617-1623,1625-1627,1629,1631-1634,1637,1642,1644-1661,1665,1670,1678-1723,1726,1730-1733,1735-1789,1791-1807,1809,1811-1812,1815-1823,1825,1827,1830-1833,1836-1878,1881-1917,1919,1924-1926,1928-1958,1960-2030,2038-2115
+  s_77f66d4c0a0225::t_1ab4b3f63628ee 2116
+app/src/main/java/app/gamenative/ui/component/dialog/NexusModsDialogHelpers.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 22-23,30,34,106-127,212,224,248,250-281,384-399
+  s_77f66d4c0a0225::t_d1740444b03679 400
+app/src/main/java/app/gamenative/utils/LsfgQuickMenuHelper.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 45-53,87
+app/src/main/java/app/gamenative/ui/model/DownloadsViewModel.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 19,30,64-69,153,298,340-342,377,540-542,589-591,593-602,604-606,608-611,625-628,630-636,638-645,647-651,653-657,659-665,668,678-719,721-732,736-753,792-794,796-808,810-815,817-828,830-831,833-836,838-839
+app/src/main/res/values-da/strings.xml
+  s_77f66d4c0a0225::t_e0ea675b207033 444-449,1510-1513,2330-2406,2476-2484
+app/src/main/java/app/gamenative/ui/screen/xserver/XServerScreen.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 151-152,229,724-727,2031,3859-3895,4108-4110,4753,4774
+app/src/main/cpp/lsfg/lsfg_alpha.cpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-168
+app/src/androidTest/java/app/gamenative/db/ModPlacementMigrationAndroidTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-95
+.github/workflows/pluvia-pr-check.yml
+  s_77f66d4c0a0225::t_e0ea675b207033 15-18,20,48,50-84
+app/src/main/java/app/gamenative/mods/ModOwnershipManifest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-572
+app/src/main/java/app/gamenative/ui/PluviaMain.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 164,2242
+app/src/main/java/app/gamenative/service/NotificationHelper.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 16,20-25
+app/src/test/java/app/gamenative/db/dao/ModDaoLocalImportTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 18,91-119
+  s_77f66d4c0a0225::t_fb9673525aae49 120-121
+app/src/test/java/app/gamenative/mods/ModConflictAnalyzerTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 4,64-109,133-153
+app/src/main/cpp/gn-download/rust/.cargo/config.toml
+  s_77f66d4c0a0225::t_e0ea675b207033 1-16
+app/src/main/cpp/gn-download/rust/README.md
+  s_77f66d4c0a0225::t_e0ea675b207033 1-202
+app/src/test/java/app/gamenative/mods/ModTargetResolverTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 8,91-160,194-203
+app/src/test/java/app/gamenative/service/rockstar/RockstarHelperArchiveTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 36
+app/src/main/res/values-uk/strings.xml
+  s_77f66d4c0a0225::t_e0ea675b207033 574-579,1636-1639,2462-2538,2608-2616
+app/src/main/cpp/gn-download/rust/src/store_dl/epic/plan.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-251
+app/src/main/cpp/lsfg/lsfg_delta.hpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-69
+app/src/main/cpp/gn-download/rust/src/store_dl/gog/jni.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-376
+app/src/main/cpp/gn-download/rust/src/store_dl/steam/depot_downloader.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-1043
+app/src/main/java/app/gamenative/gamefixes/types/BinaryPatchFix.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-97
+app/src/main/java/app/gamenative/PrefManager.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 32,36,49-53,60
+app/src/main/java/app/gamenative/service/gog/GOGManager.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 10,16,590-592,608,622
+app/src/main/res/values-de/strings.xml
+  s_77f66d4c0a0225::t_e0ea675b207033 564-569,1580-1583,2400-2476,2546-2554
+app/src/test/java/app/gamenative/mods/BethesdaPluginManagerTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 3,41-134,181-208,230-272,665-682
+  s_77f66d4c0a0225::t_49b72ce66aaa29 683
+app/src/test/java/app/gamenative/service/rockstar/RockstarArchiveFixture.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 12-15
+app/src/main/java/app/gamenative/utils/HltbService.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 27-28,36
+app/src/main/java/app/gamenative/gamefixes/STEAM_595520.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-41
+app/src/main/res/values-fr/strings.xml
+  s_77f66d4c0a0225::t_e0ea675b207033 597-602,1658-1661,2460-2536,2606-2614
+app/src/main/cpp/gn-download/rust/src/store_dl/epic/driver.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-1439
+app/src/main/res/values-pl/strings.xml
+  s_77f66d4c0a0225::t_e0ea675b207033 587-592,1640-1643,2466-2542,2612-2620
+app/src/main/res/values-ja/strings.xml
+  s_77f66d4c0a0225::t_e0ea675b207033 589-594,1643-1646,2413-2489,2559-2567
+app/src/main/java/app/gamenative/ui/screen/library/appscreen/GOGAppScreen.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 25,146,152,564-588,596
+app/src/main/cpp/CMakeLists.txt
+  s_77f66d4c0a0225::t_e0ea675b207033 10,53-69,73-80,83,90
+app/src/main/java/app/gamenative/service/amazon/AmazonService.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 9,18-19,42,49-55,441,455,457-461,479-482,490-497,515-517,534,567-569,625,630,639,649,921
+app/src/test/java/app/gamenative/mods/ModDeploymentJournalTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-107
+app/src/test/java/app/gamenative/utils/FileUtilsPatternTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-70
+app/src/test/java/app/gamenative/mods/FomodEnvironmentTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-215
+THIRD_PARTY_NOTICES
+  s_77f66d4c0a0225::t_e0ea675b207033 374-395
+app/src/androidTest/java/app/gamenative/db/migration/GOGHiddenGamesMigrationTest.kt
+  s_77f66d4c0a0225::t_5683b9d81ca9c1 60-66
+app/src/main/java/app/gamenative/service/epic/EpicService.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 18-22,33,42-48,253-255,259,270,421-424,443,457-461,464-473,495-497,528,545
+app/src/main/java/com/winlator/renderer/lsfg/LosslessScaling.java
+  s_77f66d4c0a0225::t_e0ea675b207033 1-83
+app/src/main/java/app/gamenative/mods/NexusModManager.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 69-77,83-84,89,93-110,546-579,582-583,586-589,594-606,610-620,625-656,661-662,667,670,674-675,686,689,701,703-734,739-744,746,748,751,754-798,814,840,857-866,874-878,880-889,892,901-919,1149,1151-1158,1161-1182,1188-1200,1216-1251,1259,1263-1283,1335-1361,1364-1368,1374,1378,1574,1577-1588,1590,1592-1594,1596
+app/src/main/cpp/lsfg/lsfg_dxbc.h
+  s_77f66d4c0a0225::t_e0ea675b207033 1-18
+app/src/main/cpp/gn-download/rust/src/store_dl/ordered_drain.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-257
+app/src/test/java/app/gamenative/mods/ModMaterializerTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 103-140,455,709-754,784-989,1002-1006,1008,1010
+app/src/test/java/app/gamenative/mods/AutomaticPlacementPlannerTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-434
+app/src/main/cpp/gn-download/rust/Cargo.toml
+  s_77f66d4c0a0225::t_e0ea675b207033 1-37
+app/src/main/cpp/gn-download/rust/src/store_dl/steam/base64.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-97
+app/src/main/cpp/gn-download/rust/src/store_dl/mod.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-211
+app/src/main/cpp/lsfg/lsfg_beta.hpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-49
+app/src/main/java/app/gamenative/mods/ModDiagnosticSanitizer.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-25
+app/src/main/cpp/gn-download/rust/src/store_dl/amazon/jni.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-237
+app/src/main/java/app/gamenative/db/migration/RoomMigration.kt
+  s_77f66d4c0a0225::t_5683b9d81ca9c1 31-61,69,73,103,118
+  s_77f66d4c0a0225::t_e0d53321bb42b9 30
+app/src/main/java/app/gamenative/service/amazon/AmazonDownloadManager.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 4,8-12,46,122-124,128-150,153-188,190-205,208,211-219,221-244,334,364-365,367,392,401,410,413
+app/src/main/java/app/gamenative/service/download/NativeGogDownload.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-165
+app/src/main/java/app/gamenative/mods/ModDeploymentCoordinator.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-36
+app/src/test/java/app/gamenative/mods/ModInstallPlanContractTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-129
+app/src/main/cpp/lsfg/vkr_lsfg.h
+  s_77f66d4c0a0225::t_e0ea675b207033 1-48
+app/src/main/java/app/gamenative/PluviaApp.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 106-111
+app/src/main/java/com/winlator/xenvironment/components/BionicProgramLauncherComponent.java
+  s_77f66d4c0a0225::t_e0ea675b207033 395-399
+app/src/main/java/app/gamenative/ui/component/dialog/ElementEditorDialog.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 887
+app/src/main/cpp/gn-download/rust/src/store_dl/amazon.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-1004
+app/src/main/cpp/lsfg/lsfg_probe.c
+  s_77f66d4c0a0225::t_e0ea675b207033 1-472
+app/src/main/java/app/gamenative/data/DownloadInfo.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 20,28,49,283,285
+app/src/test/java/app/gamenative/PrefDataStoreDispatcherTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-81
+app/src/test/java/app/gamenative/ui/component/dialog/PlacementWorkspaceModelsTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-253
+app/src/main/java/app/gamenative/mods/FomodAutoSelector.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 19,22-27,30-34,79
+app/src/main/cpp/gn-download/rust/src/store_dl/steam/cdn_client.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-960
+app/src/test/java/app/gamenative/mods/FomodInstallerTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 4,6,13,35-38,77-112,216,229,430-647
+  s_77f66d4c0a0225::t_d7627df0d98518 648
+app/src/main/java/app/gamenative/ui/component/dialog/NexusModsDialog.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 34,48,70,88-91,94-95,107-109,112,114,118,120-123,155,163-166,171-172,182,195-200,330,332-333,338-343,348,382,387-388,391-392,414,697-701,716-728,734-763,774-798,853,866,899,903-913,916,926-965,1282,1291-1295,1297,1302-1307,1309-1311,1326,1330-1335,1337-1338,1376-1380,1387,1390-1392,1400-1401,1416,1590,1594,1598,1604,1639,1678-1691,1693-1707,1709-1711,1719-1720,1730,1737-1757,1759-1762,1767,1772-1777,1780-1781,1795-1803,1823,1829-1832,1862-1865,1874-1884,1886-1896,1899-1975,1977,1981-1985,2036,2039-2041,2043,2047-2061,2065-2143,2149-2154,2161-2168,2170-2178,2180-2181,2183,2649-2650,2652-2653,2656,2658-2659,2661,2697-2711,2811-2828,2844-2846,3235,3239,3242-3312,3317,3320,3328-3329,3332,3337-3345,3348,3350-3352,3356-3363,3365-3366,3370-3374,3381,3383,3389,3392,3395-3399,3405,3420-3435,3439,3450,3454-3479,3486,3495,3501-3506,3510-3514,3520-3560,3562,3566-3573,3812-3813,3818-3819,3823-3847,3852,3857-3860,3869,3876,3883,3888,3894,3898,3901,3910-3929,3931-3935,3942-3950,3955-3962,4114-4119
+app/src/main/cpp/lsfg/lsfg_gamma.hpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-61
+app/src/main/java/app/gamenative/gamefixes/types/RedistDllExtractFix.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-300
+app/src/main/res/values-ro/strings.xml
+  s_77f66d4c0a0225::t_e0ea675b207033 580-585,1631-1634,2454-2530,2600-2602,2614-2619
+app/src/main/java/app/gamenative/enums/Marker.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 13
+app/src/main/cpp/lsfg/lsfg_generate.cpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-133
+app/src/main/java/app/gamenative/mods/FomodEnvironment.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-208
+app/src/main/java/app/gamenative/mods/ModDeploymentVerifier.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-210
+gradle/libs.versions.toml
+  s_77f66d4c0a0225::t_e0ea675b207033 11
+app/src/main/java/app/gamenative/di/DatabaseModule.kt
+  s_77f66d4c0a0225::t_5683b9d81ca9c1 18,40
+app/src/main/cpp/gn-download/rust/src/store_dl/epic/manifest.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-1086
+app/src/main/java/app/gamenative/utils/FormatUtils.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-25
+app/src/main/cpp/gn-download/rust/src/store_dl/steam/cdn_probe.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-886
+app/src/main/cpp/lsfg/lsfg_common.cpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-652
+app/src/main/java/app/gamenative/service/download/NativeEpicDownload.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-191
+app/src/main/cpp/gn-download/rust/src/fetch_core.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-2330
+app/src/main/java/app/gamenative/service/gog/GOGService.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 16-18,22,49-55,386-394,416-417
+  s_77f66d4c0a0225::t_5ff56b27beb61e 418
+app/src/main/cpp/lsfg/lsfg_pacer.hpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-82
+app/src/main/java/app/gamenative/mods/AutomaticPlacementPlanner.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-575
+app/src/main/cpp/gn-download/rust/src/store_dl/steam.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-21
+app/src/main/java/app/gamenative/mods/BethesdaPluginManager.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 3,29-33,87,98-99,101-131,214-217,247-251,254-270,278,285,293-307,343-349
+app/src/main/java/app/gamenative/mods/PlacementRiskPolicy.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-69
+app/src/main/java/app/gamenative/service/epic/EpicInstallState.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-44
+app/src/main/java/app/gamenative/service/rockstar/RockstarLaunchSupport.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 21-23,37,48,53
+app/src/main/java/app/gamenative/ui/component/QuickMenu.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 529-531,978-984,1678-1679,1776-1797
+  s_77f66d4c0a0225::t_c8e7d5e3e032a6 1798-1800
+app/src/main/res/values-pt-rBR/strings.xml
+  s_77f66d4c0a0225::t_e0ea675b207033 444-449,1510-1513,2330-2406,2476-2484
+app/src/main/java/app/gamenative/service/gog/GOGDownloadManager.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 4,16-19,21,43-45,100-105,272-273,278,285-286,302-307,312,314,320-325,333,339-342,383-385,392,398,478-480,496-531,548,576,754-757,768,829,832,845,903-1132,1229-1238,1249,1304,1315,1632,1776-1791,1812-1816,1819,1822,1825-1826,1865-1866,1927-1928,2158-2168
+app/src/main/cpp/gn-download/rust/src/jni_tree_delete.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-78
+app/src/main/java/app/gamenative/ui/component/dialog/PlacementWorkspaceModels.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-300
+app/src/main/cpp/lsfg/lsfg_alpha.hpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-70
+app/src/main/java/app/gamenative/ui/screen/library/LibraryAppScreen.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 164,240-248,287,306,567-572,580-589,591-595,597,600,663,665
+app/src/main/cpp/winlator/vulkan_jni.cpp
+  s_77f66d4c0a0225::t_e0ea675b207033 56,70,310-367
+app/src/main/res/values-zh-rCN/strings.xml
+  s_77f66d4c0a0225::t_e0ea675b207033 570-575,1689-1692,2474-2550,2620-2628
+app/src/test/java/app/gamenative/mods/ModArchiveIndexPerformanceTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-97
+app/src/main/cpp/gn-download/rust/src/store_dl/gog/engine.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-1906
+app/src/main/cpp/gn-download/rust/src/store_dl/steam/pb/mod.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1
+app/src/main/java/app/gamenative/mods/ModPlacementPreset.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 4,17,23,58,72-74,76,82,90-97,99,102,110,118,128,145-146,148-149,159,193,213,217
+app/src/test/java/app/gamenative/utils/HltbServiceIntegrationTest.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 66,72
+app/src/main/cpp/gn-download/rust/src/store_dl/gog.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-121
+app/src/main/cpp/lsfg/lsfg_generate.hpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-58
+app/src/main/cpp/lsfg/lsfg_mipmaps.hpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-49
+app/src/main/java/app/gamenative/mods/ModConfigurationDraft.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-109
+app/src/main/java/app/gamenative/ui/component/dialog/ContainerConfigDialog.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1317
+app/src/main/cpp/gn-download/rust/src/store_dl/epic/jni.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-458
+app/src/main/java/app/gamenative/mods/DurableFileReplacement.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-23
+app/src/main/cpp/lsfg/lsfg_gamma.cpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-195
+app/src/main/java/app/gamenative/service/gog/api/GOGApiClient.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 307-342
+  s_77f66d4c0a0225::t_fcd25e1ae44db4 306
+app/src/main/cpp/gn-download/rust/src/store_dl/steam/depot_chunk.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-258
+app/src/main/java/app/gamenative/mods/ModArchiveIndex.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-247
+app/src/main/cpp/gn-download/rust/src/store_dl/steam/pb/ccontentserverdirectory.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-212
+app/src/main/java/app/gamenative/ui/screen/library/appscreen/EpicAppScreen.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 27,103-116,536-597,626,629-632,655-682,948-959
+  s_77f66d4c0a0225::t_727c7eadc9bb86 960-962
+app/src/main/java/app/gamenative/service/download/NativeAmazonDownload.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-152
+app/src/main/java/app/gamenative/db/PluviaDatabase.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 88
+  s_77f66d4c0a0225::t_5683b9d81ca9c1 72
+app/src/main/cpp/lsfg/lsfg_delta.cpp
+  s_77f66d4c0a0225::t_e0ea675b207033 1-288
+app/src/main/java/app/gamenative/service/download/GameDownloadService.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 1-871
+app/src/main/java/app/gamenative/db/dao/ModDao.kt
+  s_77f66d4c0a0225::t_e0ea675b207033 85
+app/src/main/cpp/gn-download/rust/src/store_dl/epic/chunk.rs
+  s_77f66d4c0a0225::t_e0ea675b207033 1-302
+app/src/main/cpp/gn-download/rust/Cargo.lock
+  s_77f66d4c0a0225::t_d33b9a2fa9f065 1-2008
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "cb8e902227a40205b932239df23c21acdc9d3c40",
+  "prompts": {},
+  "humans": {
+    "h_a1fa5c19d60fed": {
+      "author": "Daniel Byon <daniel@danielbyon.com>"
+    }
+  },
+  "sessions": {
+    "s_77f66d4c0a0225": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0b3b3-f75e-7ef0-be18-7240382848e6",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "Daniel Byon <daniel@danielbyon.com>"
+    }
+  }
+}
