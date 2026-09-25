@@ -1,0 +1,30 @@
+app/src/test/java/app/gamenative/service/gog/GOGServiceHiddenSyncTest.kt
+  s_77f66d4c0a0225::t_c6c09721cce2d7 22-25,27-28,344-363,367-429,433-478
+  s_77f66d4c0a0225::t_64e1697f29b2cf 527
+  s_77f66d4c0a0225::t_d5a038cf812e8c 364-366,430-432
+  s_77f66d4c0a0225::t_112ae8125d3c72 543,546
+  s_77f66d4c0a0225::t_62735774b70443 479
+app/src/main/java/app/gamenative/service/gog/GOGService.kt
+  s_77f66d4c0a0225::t_e30edbd3164e22 162-165
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "97cd917380f489b0079e497ea43cf2cc22c7671a",
+  "prompts": {},
+  "humans": {
+    "h_a1fa5c19d60fed": {
+      "author": "Daniel Byon <daniel@danielbyon.com>"
+    }
+  },
+  "sessions": {
+    "s_77f66d4c0a0225": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0b3b3-f75e-7ef0-be18-7240382848e6",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "Daniel Byon <daniel@danielbyon.com>"
+    }
+  }
+}
