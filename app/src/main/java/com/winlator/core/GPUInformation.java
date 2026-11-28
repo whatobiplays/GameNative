@@ -4,16 +4,16 @@ import android.content.Context;
 import android.opengl.EGL14;
 import android.util.Log;
 
-import androidx.collection.ArrayMap;
-
-import com.winlator.PrefManager;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import com.winlator.PrefManager;
+
 import java.util.Locale;
 import java.util.Objects;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.FutureTask;
 
 import javax.microedition.khronos.egl.EGL10;
 import javax.microedition.khronos.egl.EGLConfig;
@@ -21,17 +21,33 @@ import javax.microedition.khronos.egl.EGLContext;
 import javax.microedition.khronos.egl.EGLDisplay;
 import javax.microedition.khronos.opengles.GL10;
 
+/**
+ * Reports which GPU this device has.
+ *
+ * <p>Identity is read from a throwaway EGL context and kept for the life of the process. The
+ * three strings come from one read, since a renderer means little on its own: driver and shader
+ * choice depends on the vendor and driver version beside it. A read that comes back empty or
+ * partial is handed to the caller and dropped, so the next call tries again. A read that fills
+ * all three is kept and never repeated.
+ *
+ * <p>Nothing here survives a process restart. An earlier build cached the identity in
+ * preferences and read it back before probing, which let one wrong or half-finished result
+ * decide driver and shader selection for as long as the app stayed installed. Nothing
+ * rechecked it, and the stored value could outlive the driver build it came from.
+ *
+ * <p>Reading blocks until the probe finishes, on whichever thread asked for it. A driver call
+ * that never returns blocks the caller for as long as it runs. There is no timeout: a timeout
+ * would report an unknown GPU and then pick a driver from that.
+ */
 public abstract class GPUInformation {
 
-    // Bumped from "gpu_renderer" to invalidate caches that stored the renderer
-    // with a manufacturer prefix (e.g. "Oculus Adreno (TM) 740"); the empty new
-    // key forces a clean recompute.
-    private static final String RENDERER_PREF_KEY = "gpu_renderer2";
+    private static final String TAG = "GPUInformation";
 
     static {
         System.loadLibrary("extras");
     }
 
+    /** Finds a renderer name in gpu_cards.json, by exact name or by device id. */
     private static JSONObject findCard(Context context, String gpuName) {
         if (gpuName == null || gpuName.isEmpty()) return null;
         try {
@@ -65,14 +81,153 @@ public abstract class GPUInformation {
         return card != null ? card.optString("vendorID", "") : "";
     }
 
-    private static ArrayMap<String, String> loadGPUInformation(Context context) {
-        final Thread thread = Thread.currentThread();
-        final ArrayMap<String, String> gpuInfo = new ArrayMap<>();
-        gpuInfo.put("renderer", "");
-        gpuInfo.put("vendor", "");
-        gpuInfo.put("version", "");
+    /**
+     * One reading of the graphics driver: renderer, vendor and version, as reported.
+     *
+     * <p>A reading counts only when all three fields arrived. A renderer by itself leaves the
+     * vendor and driver version to be guessed, and keeping a guess is how a stale identity gets
+     * to sit in place for months.
+     */
+    static final class Identity {
 
-        (new Thread(() -> {
+        static final Identity UNAVAILABLE = new Identity("", "", "");
+
+        final String renderer;
+        final String vendor;
+        final String version;
+
+        Identity(String renderer, String vendor, String version) {
+            this.renderer = Objects.toString(renderer, "");
+            this.vendor = Objects.toString(vendor, "");
+            this.version = Objects.toString(version, "");
+        }
+
+        /** True when the driver answered all three, which is the only thing worth caching. */
+        boolean isComplete() {
+            return !renderer.isEmpty() && !vendor.isEmpty() && !version.isEmpty();
+        }
+    }
+
+    /** Where a reading comes from. The device uses EGL; tests supply a fixed reading. */
+    interface GpuReader {
+
+        Identity read(Context context);
+    }
+
+    /**
+     * Caches one GPU reading for the process and keeps at most one probe running.
+     *
+     * <p>Every entry point either returns a cached reading, joins the probe already running, or
+     * starts one probe and waits for it. No caller retries inside a single call, so a driver that
+     * answers nothing costs one probe per call instead of an unbounded loop.
+     *
+     * <p>A finished probe is replaced by the next call, which keeps a failed read retryable, and
+     * the slot is cleared only where a probe could not be started at all. Interrupted callers
+     * give up their own wait without cancelling the probe, so one interrupted thread cannot cost
+     * the others their reading.
+     */
+    static final class GpuInformationCache {
+
+        private final GpuReader reader;
+        private final Object probeLock = new Object();
+        private volatile Identity published;
+        private FutureTask<Identity> probe;
+
+        GpuInformationCache(GpuReader reader) {
+            this.reader = reader;
+        }
+
+        /** Never null. Empty when nothing could be read this time. */
+        Identity read(Context context) {
+            Identity cached = this.published;
+            if (cached != null) {
+                return cached;
+            }
+
+            FutureTask<Identity> attempt;
+            synchronized (this.probeLock) {
+                cached = this.published;
+                if (cached != null) {
+                    return cached;
+                }
+
+                FutureTask<Identity> running = this.probe;
+                if (running != null && !running.isDone()) {
+                    attempt = running;
+                } else {
+                    FutureTask<Identity> next = new FutureTask<>(() -> probeAndCache(context));
+                    this.probe = next;
+                    if (!startProbe(next)) {
+                        return Identity.UNAVAILABLE;
+                    }
+                    attempt = next;
+                }
+            }
+
+            try {
+                return attempt.get();
+            } catch (InterruptedException interrupted) {
+                Thread.currentThread().interrupt();
+                Log.w(TAG, "Interrupted while reading GPU identity");
+                return Identity.UNAVAILABLE;
+            } catch (ExecutionException failure) {
+                Throwable cause = failure.getCause();
+                if (cause instanceof Error) {
+                    throw (Error) cause;
+                }
+                return Identity.UNAVAILABLE;
+            }
+        }
+
+        /** False, or a rethrown Error, when no probe could run. Never leaves a dead probe in the slot. */
+        private boolean startProbe(FutureTask<Identity> probe) {
+            try {
+                new Thread(probe, "gpu-information").start();
+                return true;
+            } catch (RuntimeException | Error startupFailure) {
+                this.probe = null;
+                Log.e(TAG, "GPU probe could not start: " + startupFailure);
+                if (startupFailure instanceof Error) {
+                    throw startupFailure;
+                }
+                return false;
+            }
+        }
+
+        /** Runs on the probe thread. Publishes before returning, so a finished probe is a published one. */
+        private Identity probeAndCache(Context context) {
+            Identity detected;
+            try {
+                Identity read = this.reader.read(context);
+                detected = read == null ? Identity.UNAVAILABLE : read;
+            } catch (RuntimeException failure) {
+                Log.w(TAG, "GPU probe failed: " + failure);
+                return Identity.UNAVAILABLE;
+            } catch (Error failure) {
+                Log.e(TAG, "GPU probe raised a fatal error: " + failure);
+                throw failure;
+            }
+
+            if (detected.isComplete()) {
+                synchronized (this.probeLock) {
+                    if (this.published == null) {
+                        this.published = detected;
+                    }
+                }
+            }
+            return detected;
+        }
+    }
+
+    /**
+     * Reads GPU identity through a temporary GLES2 context. The attribute list, context
+     * setup and the three glGetString calls are unchanged from before caching was removed,
+     * so what a device reports stays the same; only how often it is asked has changed.
+     */
+    private static final class EglReader implements GpuReader {
+
+        @Override
+        public Identity read(Context context) {
             int[] attribList = new int[]{
                     EGL10.EGL_SURFACE_TYPE, EGL10.EGL_PBUFFER_BIT,
                     EGL10.EGL_RENDERABLE_TYPE, EGL14.EGL_OPENGL_ES2_BIT,
@@ -98,59 +253,48 @@ public abstract class GPUInformation {
             egl.eglMakeCurrent(eglDisplay, EGL10.EGL_NO_SURFACE, EGL10.EGL_NO_SURFACE, eglContext);
 
             GL10 gl = (GL10) eglContext.getGL();
-            String gpuRenderer = Objects.toString(gl.glGetString(GL10.GL_RENDERER), "");
-            String gpuVendor = Objects.toString(gl.glGetString(GL10.GL_VENDOR), "");
-            String gpuVersion = Objects.toString(gl.glGetString(GL10.GL_VERSION), "");
-
-            gpuInfo.put("renderer", gpuRenderer);
-            gpuInfo.put("vendor", gpuVendor);
-            gpuInfo.put("version", gpuVersion);
-
-            PrefManager.init(context);
-            PrefManager.putString(RENDERER_PREF_KEY, gpuRenderer);
-            PrefManager.putString("gpu_vendor", gpuVendor);
-            PrefManager.putString("gpu_version", gpuVersion);
-
-            synchronized (thread) {
-                thread.notify();
-            }
-        })).start();
-
-        synchronized (thread) {
-            try {
-                thread.wait();
-            } catch (InterruptedException e) {
-                Log.e("GPUInformation", "Failed to load gpu information: " + e);
-            }
+            return new Identity(
+                    Objects.toString(gl.glGetString(GL10.GL_RENDERER), ""),
+                    Objects.toString(gl.glGetString(GL10.GL_VENDOR), ""),
+                    Objects.toString(gl.glGetString(GL10.GL_VERSION), ""));
         }
-        return gpuInfo;
+    }
+
+    /**
+     * Holds the process-wide cache. Kept in its own class so that the only work left in
+     * this class's static initializer is loading the native library: host tests skip that
+     * load, and the cache still has to come up normally when they do.
+     */
+    private static final class Default {
+
+        static final GpuInformationCache CACHE = new GpuInformationCache(new EglReader());
     }
 
     public static String getRenderer(Context context) {
-        PrefManager.init(context);
-        String value = PrefManager.getString(RENDERER_PREF_KEY, "");
-        if (!value.isEmpty()) return value;
-
-        ArrayMap<String, String> gpuInfo = loadGPUInformation(context);
-        return gpuInfo.get("renderer");
+        openPreferenceStore(context);
+        return Default.CACHE.read(context).renderer;
     }
 
     public static String getVendor(Context context) {
-        PrefManager.init(context);
-        String value = PrefManager.getString("gpu_vendor", "");
-        if (!value.isEmpty()) return value;
-
-        ArrayMap<String, String> gpuInfo = loadGPUInformation(context);
-        return gpuInfo.get("vendor");
+        openPreferenceStore(context);
+        return Default.CACHE.read(context).vendor;
     }
 
     public static String getVersion(Context context) {
-        PrefManager.init(context);
-        String value = PrefManager.getString("gpu_version", "");
-        if (!value.isEmpty()) return value;
+        openPreferenceStore(context);
+        return Default.CACHE.read(context).version;
+    }
 
-        ArrayMap<String, String> gpuInfo = loadGPUInformation(context);
-        return gpuInfo.get("version");
+    /**
+     * Opens the Winlator preference store on the way past.
+     *
+     * <p>Several screens and launcher components read that store without opening it first, and
+     * they have always arrived here already having been opened, either by one of their own calls
+     * or by an earlier GPU read. Nothing below looks at a preference: GPU identity is cached in
+     * memory. The call stays so that those other readers see the store in the state they expect.
+     */
+    private static void openPreferenceStore(Context context) {
+        if (context != null) PrefManager.init(context);
     }
 
     public static boolean isAdreno6xx(Context context) {
@@ -206,7 +350,6 @@ public abstract class GPUInformation {
         return r.contains("adreno") && r.matches(".*\\b740\\b.*");
     }
 
-
     public static boolean isAdrenoGPU(Context context) {
         return getRenderer(null, context).toLowerCase().contains("adreno");
     }
@@ -226,3 +369,4 @@ public abstract class GPUInformation {
     public native static String[] enumerateExtensions(String driverName, Context context);
     public native static int getVendorID(String driverName, Context context);
 }
+
